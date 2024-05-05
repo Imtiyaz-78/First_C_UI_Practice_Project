@@ -88,20 +88,40 @@
         opacity: 0.5;
       }
 
-      /* Main_container */
-      .Main_Container {
+      /* Aside List container */
+      .aside_list_container {
         display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: #f5f5ff;
+        color: rgb(134, 124, 124);
+        padding: 1rem 0rem 1rem 1rem;
+        width: 100%;
+        overflow-y: scroll;
+        height: 90vh;
+      }
+      .work_aside_bar_section {
+        display: flex;
+        flex-direction: column;
         gap: 1rem;
       }
+      .work_aside_bar_section ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      .work_aside_bar_section ul li {
+        list-style-type: none;
+      }
+
       .side_navbar {
-        background-color: red;
-        height: 100vh;
+        background-color: #f5f5ff;
+        color: rgb(134, 124, 124);
         width: 10%;
       }
-      .body_conatiner {
-        background-color: green;
-        height: 93.5vh;
-        width: 90%;
+
+      .sidebar_header_icon {
+        padding: 1.5rem 0rem 0rem 1rem;
       }
     </style>
   </head>
@@ -141,10 +161,176 @@
     </header>
 
     <!-- Header End Here -->
-    <div class="Main_Container">
-      <div class="side_navbar">Hello</div>
-      <div class="body_conatiner">Body</div>
-    </div>
+    <main class="Main_Container">
+      <aside class="side_navbar">
+        <span class="sidebar_header_icon"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+        <!-- Aside List Container -->
+        <div class="aside_list_container">
+          <p>Quick Links</p>
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="work_aside_bar_section">
+            <p>My Work</p>
+            <ul>
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Dashboard</span></span
+                >
+              </li>
+
+              <li class="aside_List">
+                <span
+                  ><i class="fa-solid fa-bars"></i> <span>Calendar</span></span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+      <div class="body_conatiner"></div>
+    </main>
     <!-- Header End Here -->
   </body>
 </html>
